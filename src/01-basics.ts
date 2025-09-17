@@ -45,10 +45,9 @@ const colleague3 : Colleague = {
   },
 };
 
-const colleagues : ColleagueHistory = {
+export const colleagues : ColleagueHistory = {
   current: [colleague1, colleague2, colleague3],
   former: [],
 };
 
 //console.log(colleagues.current[0]);
-export const colleague = colleagues.current[0]
